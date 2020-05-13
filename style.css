@@ -1,0 +1,92 @@
+/* 
+========================
+table of content: 
+   1. global style
+   2. layuot style
+   3. component style
+========================
+*/
+
+/* 
+========================
+   1. global style
+========================
+*/
+@font-face {
+   font-family: "bbz";
+   src: url("fonts/Booter - Zero Zero.woff") format("woff"),
+      url("fonts/Booter - Zero Zero.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: "Raleway", sans-serif;
+   color: #777;
+}
+
+/* 
+========================
+   2. layout style
+========================
+*/
+
+.main-header {
+   background-color: rgba(0, 0, 0, 0.6);
+   background-image: url("images/header-bg.jpg");
+   background-blend-mode: multiply;
+   background-size: cover;
+   padding-bottom: 10px;
+}
+
+/* 
+========================
+   3. component style
+========================
+*/
+
+.nav li {
+   display: inline;
+}
+
+.nav a {
+   display: inline-block;
+   padding: 0.6em;
+   text-decoration: none;
+   color: rgb(221, 221, 221);
+}
+
+.main-nav {
+   text-align: center;
+   font-size: 1.2em;
+}
+
+.main-nav a {
+   margin: 0 3%;
+}
+
+.main-nav a:hover {
+   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header-nav {
+   border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+.band-name {
+   text-align: center;
+   font-family: "bbz";
+   color: white;
+   font-size: 4em;
+   font-weight: normal;
+}
+
+.band-name-lg {
+   font-size: 6.6em;
+}
